@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "mobilenetv2",
+    "variant": "keras-imagenet",
+    "full_name": "Mobilenet V2",
+    "description": "Mobilenet V2 is an image classification model that implements depth-wise convolutions within the network in an effort to optimize latency on mobile devices. MobilenetV2 is architecturally similar to V1, but has been further optimized to reduce latency on mobile devices.",
+    "type": "Image Classification",
+    "source": "https://github.com/latentai/model-zoo-models/tree/master/mobilenetv2",
+    "tags": [
+      "compiled"
+    ]
+  },
+  "preprocessor": "imagenet",
+  "input_names": "input_1",
+  "inference": {
+    "context": "cuda"
+  },
+  "dataset": "custom",
+  "dataset_type": "leip"
+}
