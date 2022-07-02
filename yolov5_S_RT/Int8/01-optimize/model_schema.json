@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "tags": [
+      "keller"
+    ]
+  },
+  "preprocessor": "yolov5_preprocessor.preprocess",
+  "postprocessor": "yolov5_postprocessor.postprocess",
+  "input_names": "input1",
+  "inference": {
+    "context": "cuda"
+  },
+  "dataset_type": "leip"
+}
